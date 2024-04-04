@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 640px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.header {
+    padding: 1.5rem 0;
+}
+
+.header-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.table-products {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table-products, .table-products th, .table-products td {
+    border: 1px solid #ddd;
+}
+
+.table-products th, .table-products td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table-products th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-products tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-edit {
+    color: #fff;
+    background-color: #007bff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e3e6f0;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 2rem;
+}
