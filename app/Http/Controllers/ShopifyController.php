@@ -34,10 +34,4 @@ class ShopifyController extends Controller
         $request->session()->flash('success', 'Product Custom Alert Saved Successfully!');
         return redirect()->route('products');
     }
-
-    public function editAlert($product_id)
-    { 
-        $productAlert = $this->productAlertService->getProductDescription($product_id);
-        return view('products.alert', compact('product_id', 'productAlert'));
-    }
 }

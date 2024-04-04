@@ -22,4 +22,3 @@ Route::middleware(['verify.shopify'])->group(function () {
 Route::get('/dashboard', [ShopifyController::class,'dashboard'])->name('dashboard');
 Route::get('/products', [ShopifyController::class,'index'])->name('products');
 Route::post('/products/alert', [ShopifyController::class,'store'])->name('products.store');
-Route::get('/products/{product_id}/alert', [ShopifyController::class,'editAlert'])->name('products.alert.form');

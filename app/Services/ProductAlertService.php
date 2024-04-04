@@ -28,11 +28,6 @@ class ProductAlertService
         ]);
     }
 
-    public function getProductDescription($product_id)
-    {
-        return Product::where('store_product_id', $product_id)->first();
-    }
-
     public function storeProductDescription($request)
     {       
         $authStore = Auth::user();
